@@ -731,6 +731,7 @@ p.main_information__offer {
     }
 
     .top_navigation {
+        position: relative;
         justify-content: center;
     }
 
@@ -869,9 +870,9 @@ p.main_information__offer {
     }
 
     .change_lang__wrapper {
-        position: relative;
-        top: -100px;
-        right: -230px;
+        position: absolute;
+        top: 20%;
+        left: 0;
     }
 
     .test_drive__callback {
@@ -935,11 +936,6 @@ p.main_information__offer {
 
     .top_navigation__item {
         margin-right: 10px;
-    }
-
-    .change_lang__wrapper {
-        right: -55%;
-        top: -250px;
     }
 
     .main_information__about h1 {

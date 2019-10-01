@@ -5,7 +5,7 @@
 
     if (widthWindow <= 768) {
         $('#navbar').append(headerInform);
-        $('#navbar').append(headerLang);
+        $('.top_navigation').append(headerLang);
     }
 
     function removeError() {
